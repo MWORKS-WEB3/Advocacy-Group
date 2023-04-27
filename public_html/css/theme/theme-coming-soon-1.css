@@ -1,0 +1,226 @@
+/* Index Coming Soon 1 */
+
+body, html {
+ padding: 0;
+ margin: 0;
+}
+body {
+ height: 100%;
+ overflow-y: hidden;
+}
+#top, #bottom, #left, #right {
+ display: none;
+}
+.cs-wrap {
+ font-family: 'Montserrat', sans-serif;
+ position: relative;
+ display: block;
+ height: 100vh;
+ width: 100%;
+ background: #181818;
+}
+.cs-img-wrap {
+ padding: 0;
+ position: absolute;
+ width: 100%;
+ height: 100vh;
+ z-index: 19;
+}
+.cs-content-img {
+ position: relative;
+ margin: 0 auto;
+ height: 80%;
+ width: 80%;
+ top: 10%;
+}
+.cs-header {
+ z-index: 9;
+ position: relative;
+ top: 80px;
+ height: 100%;
+ overflow-y: hidden;
+ -webkit-transform: translateX(-5%);
+ transform: translateX(-5%);
+ /* Text blurry */
+ -webkit-filter: blur(0);
+}
+.cs-title {
+ font-size: 70px;
+ font-weight: 700;
+ overflow-y: hidden;
+}
+.cs-title .title {
+ display: block;
+ overflow-y: hidden;
+ color: #BF9865;
+}
+.cs-figure {
+ z-index: 7;
+ position: absolute;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+ height: 100%;
+ width: 100%;
+}
+.cs-figure-img {
+ position: relative;
+ display: block;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: 50%;
+ -webkit-backface-visibility: hidden;
+ height: 0%;
+ width: 100%;
+}
+.cs-figure-img {
+ height: 100%;
+ opacity: 1;
+}
+.cs-overlay:before {
+ position: absolute;
+ content: " ";
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ display: block;
+ z-index: 0;
+ background: rgba(0,0,0,0.60);
+}
+ul.countdown {
+ margin: 0;
+ padding: 0;
+ display: block;
+ color: #000;
+}
+ul.countdown li {
+ display: inline-block;
+ padding-left: 10px;
+}
+ul.countdown li span {
+ font-size: 70px;
+ font-weight: 700;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ color: rgba(255,255,255,0.30);
+}
+ul.countdown li.seperator {
+ font-size: 15px;
+ vertical-align: middle;
+ color: #6E6E6E;
+ font-weight: 100;
+}
+ul.countdown li p {
+ color: #656565 !important;
+ font-size: 10px;
+ margin-left: 12px;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ font-weight: 200;
+}
+.tlt-right {
+ font-size: 42px;
+ font-weight: 700;
+ color: #BF9865;
+ position: fixed;
+ right: 1%;
+ bottom: 53px;
+}
+.cs-social {
+ z-index: 99;
+ position: fixed;
+ right: 2%;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-align: center;
+ -ms-flex-align: center;
+ align-items: center;
+ height: 100%;
+ color: #BF9865;
+}
+.cs-social-link {
+ position: relative;
+ right: 0;
+ display: block;
+ font-size: 14px;
+ -webkit-transform: rotate(90deg);
+ transform: rotate(90deg);
+ -webkit-transform-origin: center;
+ transform-origin: center;
+}
+.cs-social button {
+ position: relative;
+ display: inline-block;
+ padding: 5px;
+ margin: 0;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+ background: transparent;
+ border: 0;
+ overflow-x: hidden;
+ -webkit-transition: color 0.5s ease;
+ transition: color 0.5s ease;
+}
+.cs-social button:after {
+ content: '';
+ position: absolute;
+ top: 50%;
+ left: 0;
+ height: 1px;
+ width: 0;
+ background: #888888;
+ -webkit-transition: width 0.4s ease;
+ transition: width 0.4s ease;
+}
+.cs-social button:hover {
+ cursor: pointer;
+ color: rgba(136,136,136,0.75);
+ -webkit-transition: color 0.5s ease;
+ transition: color 0.5s ease;
+}
+.cs-social button:hover:after {
+ width: 100%;
+ -webkit-transition: width 0.4s ease;
+ transition: width 0.4s ease;
+}
+.cs-social button:focus {
+ outline: 0;
+}
+.footer {
+ position: fixed;
+ font-size: 11px;
+ color: rgba(255,255,255,0.30);
+ left: 1%;
+ bottom: 120px;
+ font-weight: 400;
+}
+.footer a {
+ color: rgba(191,152,101,0.60);
+}
+.footer a:hover {
+ color: rgba(255,255,255,0.20);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+.cs-content-img { height: 90%; width: 90%; top: 5%; }
+.cs-header { -webkit-transform:translateX(-3%); transform:translateX(-3%); }
+.cs-title { font-size: 55px; }
+.cs-social { right: -3%; }
+ul.countdown li span { font-size: 42px; }
+}
+@media all and (max-width: 768px) {
+.cs-content-img { height: 95%; width: 95%; top: 2.5%; }
+.cs-header { -webkit-transform:translateX(1%); transform:translateX(1%); }
+.cs-title { font-size: 35px; }
+.tlt-right { font-size: 25px; bottom: 80px; right: 2%; font-weight: 400 }
+.cs-social  { right: -5%; }
+}
+@media (max-width: 380px) {
+ul.countdown li span { font-size: 28px; font-weight: 700; }
+.tlt-right { font-size: 22px; right: 2%; }
+}

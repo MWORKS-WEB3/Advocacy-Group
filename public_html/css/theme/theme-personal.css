@@ -1,0 +1,185 @@
+
+/* Index  Personal Page */
+
+.nav-transparent-nav>li>a:before {
+ background: #ebebeb;
+}
+.nav-transparent-nav>li>a:hover,
+.nav-transparent-nav>li>a:active,
+.nav-transparent-nav>li>a:focus {
+ color: #858585 !important;
+}
+.nav-transparent-dropdown-menu {
+	border-top: 2px solid #ebebeb !important;
+}
+.menu-light .nav-transparent-dropdown-menu li a:hover,
+.menu-light .nav-transparent-dropdown-menu li a:active,
+.menu-light .nav-transparent-dropdown-menu li a:focus {
+ color: #282828 !important;
+	background: #ebebeb !important;
+}
+.menu-light .nav-transparent-home-list ul li a:hover,
+.menu-light .nav-transparent-home-list ul li a:active,
+.menu-light .nav-transparent-home-list ul li a:focus,
+.menu-light .nav-transparent-elements-list ul li a:hover,
+.menu-light .nav-transparent-elements-list ul li a:active,
+.menu-light .nav-transparent-elements-list ul li a:focus {
+	color: #282828 !important;
+	background: #ebebeb !important;
+}
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>div>div>h5>a:hover,
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>div>div>h5>a:active,
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>div>div>h5>a:focus,
+.menu-light .nav-transparent-dropdown-menu-features-col>h5>a:hover,
+.menu-light .nav-transparent-dropdown-menu-features-col>h5>a:active,
+.menu-light .nav-transparent-dropdown-menu-features-col>h5>a:focus {
+	color: #858585 !important;
+	background: transparent !important;
+}
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>a:hover,
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>a:active,
+.menu-light .nav-transparent-dropdown-menu-mega>li>ul>li>a:focus {
+	color: #282828 !important;
+	background: transparent !important;
+}
+.theme-personal {
+ font-family: 'Open Sans', sans-serif;
+ color: #747474;
+ letter-spacing: 1px;
+}
+h2 {
+ text-transform: uppercase;
+ color: #181818;
+ font-weight: 600;
+ font-size: 24px;
+}
+p {
+ font-size: 12px;
+ line-height: 20px;
+}
+.box-info {
+ padding: 10px 45px;
+ display: inline-block;
+}
+.number {
+ color: #000;
+ font-size: 12px;
+ line-height: 12px;
+ padding: 20px;
+ font-weight: 800;
+ display: table-cell;
+ margin-bottom: 0;
+ margin-top: 0;
+ border: 5px solid #f1f1f1;
+}
+.title,
+.title-sub {
+ display: block;
+ padding-left: 15px;
+ line-height: 11px;
+ text-align: left;
+}
+.title {
+ font-size: 11px;
+ font-weight: 600;
+ text-transform: uppercase;
+ color: #181818;
+}
+.title-sub {
+ font-size: 10px;
+ font-weight: 400;
+ text-transform: uppercase;
+ margin-top: 10px;
+}
+.skill-1 .skill-title {
+ font-size: 10px;
+}
+.info-address {
+ margin-top: 30px;
+}
+.info-address p {
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+.info-address p span {
+ color: #181818;
+ text-transform: uppercase;
+ font-size: 11px;
+}
+.author {
+ color: #181818;
+ font-size: 10px;
+ text-align: center;
+ margin-top: 50px;
+ text-transform: uppercase;
+ font-weight: 600;
+}
+.box-info-2 {
+ width: 100%;
+ height: auto;
+ border: 1px solid #EBEBEB;
+ border-radius: 2px;
+ margin: 15px 5px;
+ padding: 10px;
+ -webkit-transition: all .3s ease-in-out;
+ -moz-transition: all .3s ease-in-out;
+ -ms-transition: all .3s ease-in-out;
+ -o-transition: all .3s ease-in-out;
+ transition: all .3s ease-in-out;
+}
+.box-info-2:hover {
+ background-color: #fff;
+ border: 1px solid #181818;
+}
+.box-info-2 > span {
+ font-size: 11px;
+ width: 50px;
+ background-color: #fff;
+ position: absolute;
+ top: 30px;
+ left: 0;
+ padding: 10px;
+ text-align: center;
+ border: 5px solid #f1f1f1;
+ font-weight: 600;
+ color: #a8a8a8;
+}
+.box-info-2 > .info {
+ position: absolute;
+ top: 35px;
+ left: 60px;
+ font-size: 11px;
+ text-transform: uppercase;
+}
+.box-info-2 > .info:first-line {
+ font-size: 10px;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: #a8a8a8;
+}
+.box-info-2 > .numbers {
+ font-size: 11px;
+ color: #181818;
+ text-align: center;
+ font-weight: 600;
+ position: absolute;
+ top: 45px;
+ right: 35px;
+}
+.box-info-2 > .txt-des {
+ padding-right: 30px;
+ padding-left: 30px;
+ font-size: 12px;
+ margin-top: 70px;
+ color: #A8A8A8;
+}
+.contact-form-4 .form-control {
+ letter-spacing: 1px;
+ font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 990px) {
+.box-info-2 > .txt-des { padding-right: 10px; padding-left: 10px; }
+}
